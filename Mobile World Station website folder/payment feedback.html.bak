@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Payment Feedback</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{
+padding: 50px 50px;
+}
+*{
+font-family: calibri;
+text-align: center;
+}
+.feedback{
+background-color: powderblue;
+border: 2px;
+border-style: solid;
+border-color: #368267;
+border-radius: 5px;
+width: 90%;
+padding:10px 5px 10px 5px;
+margin: 0px 10px 0px 70px;
+}
+.feedbackbody{
+font-size: 25px;
+}
+.feedbacknote{
+font-size: 20px;
+}
+.homelink{
+text-decoration: none;
+color: gray;
+font-size:50px;
+}
+.visit{
+font-size: 25px;
+font-family: calibri;
+text-align: center;
+font-weight: light;
+}
+</style>
+</head>
+<body>
+<center><img src="mobileworldstation.png" alt="logo" height="150" width="150"></center><br><br>
+<div class="feedback">
+<p class="feedbackbody">Thank you for shopping with us! Your details has been submitted to the server. Your goods will be delivered in 2 days.</p>
+<p class="feedbacknote"><b>Note:Rest assured, your personal details are safe with us as we do not share with any other company.</b></p>
+</div>
+<br>
+<div><a class="homelink" href="homepage.html"><i class="fa fa-home"></i></a></div>
+<br>
+<br>
+<h1 class="visit">We recommend these websites for more about mobile phones.</h1>
+<hr style="width:75%; align:center; border-width:2px;color:gray;background-color:gray">
+<br><br>
+<div class="imagediv">
+<a class="imglink" href="https://www.samsung.com/uk/home/"target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="samsunglogo.png" alt="samsunglogo" height="100" width="150"></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="imglink" href="https://www.apple.com/" target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="iphonelogo.png" alt="iphonelogo" height="100" width="150"></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="imglink" href="https://wileyfox.com/"target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="wileyfoxlogo.jpg" alt="wileyfoxlogo" height="100" width="150"></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="imglink" href="https://umidigi.com/" target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="umidigilogo.jpg" alt="umidigilogo" height="100" width="150"></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="imglink" href="https://www.motorola.co.uk/" target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="motorolalogo.png" alt="motorolalogo" height="100" width="150"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>wileyfox white</title>
+<link rel="stylesheet" href="phone pages style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="paymenth">
+Thank you for shopping.<br><br> We have prepared your bill. Have a look and fill in the form to complete payment.
+</div>
+
+<br><br><br><br>
+
+<div class="iconbillcontainer">
+<div class="aiconcontainer">
+<a class="fa fa-image" id="aicon" href="gallery page.html"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a class="fa fa-home"  id="aicon" href="homepage.html"></a>
+</div>
+
+<div class="topparagraph">
+ <button type="button" class="billcollapsible"><b>View Your Bill</b></button>
+ <div class="billcontent">
+<pre> 
+Product Name: WileyFox Swift2Plus
+Product price= £96.90
+Delivery= £0(free)
+VAT= £0.99
+<b>Total:£97.89</b>
+</pre>
+ </div>
+</div>
+</div>
+
+<table>
+<tr>
+<td class="protd">
+ <div class="productcontainer">
+ <img src="wileyfox pink.jpg" alt="wileyfox pink" style="width:100%">
+ <h1 class="productname"> WileyFox Swift2Plus</h1>
+  <button type="button" class="collapsible"><b>Product Info</b></button>
+ <div class="content">
+ <p><b>Storage: 430GB,Network Type:4GB.<br>Sim:Dual,Camera:2/1<br>Colour:white/pink <br>Company:MobileWorldStation</b></p>
+  </div>
+ <p id="was"><s><b>Was £130.50</b></s></p>
+ <p id="now"><b>Now £96.90</b></p>
+ </div>
+</td>
+<td class="paytd">
+<div class="row">
+<div class="col-75">
+<div class="container">
+
+<form action="payment feedback.html">
+    <div class="row">
+
+<div class="col-50">
+<h1 class="billing">Billing Address</h1>
+<label for="sname" id="sname"><i class="fa fa-user"></i>Surname</label>
+<input type="text" id="snamei" name="surname" placeholder="Yekini">
+<label for="oname" id="oname"><i class="fa fa-user"></i>Other Names</label>
+<input type="text" id="onamei" name="othernames" placeholder="Suhud Ayodeji">
+<label for="email" id="email"><i class="fa fa-envelope"></i>Email</label>
+<input type="text" id="emaili" name="email" placeholder="suhud@example.com">
+<label for="address" id="address"><i class="fa fa-address-card-o"></i>Address</label>
+<input type="text" id="addressi" name="address" placeholder="14 Address Street">
+<label for="city" id="city"><i class="fa fa-institution"></i>City</label>
+<input type="text" id="cityi" name="city" placeholder="London">
+<div class="row">
+<div class="col-50">
+<label for="state" id="state">State</label>
+<input type="text" id="statei" name="state" placeholder="LN">
+</div>
+<div class="col-50">
+<label for="Postcode" id="postcode">Postcode</label>
+<input type="text" id="postcodei" name="postcode" placeholder="IF 117 TH">
+</div>
+</div>
+</div>
+
+<div class="col-50">
+<h1 class="payment">Payment</h1>
+<h2 class="Cardtypes">Accepted Card</h2>
+<div class="iconcontainer">
+<i class="fa fa-cc-visa" style="color:navy;"></i>
+<i class="fa fa-cc-amex": style="color:blue;"></i>
+<i class="fa fa-cc-paypal" style="color:green;"></i>
+<i class="fa fa-cc-mastercard" style="color:red;"></i>
+<i class="fa fa-cc-discover" style="color:orange;"></i>
+</div>
+<label for="cname" id="cname">Name on Card</label>
+<input type="text" id="cnamei" name="cardname" placeholder="Patric More Sand">
+<label for="ccnum" id="ccnum">Credit Card Number</label>
+<input type="text" id="ccnumi" name="cardnumber" placeholder="1111-2222-3333-4444">
+<div class="row">
+<div class="col-50">
+<label for="expdate" id="expdate">Exp Date</label>
+<input type="text" id="expdatei" name="expdate" placeholder="02/22">
+</div>
+<div class="col-50">
+<label for="cvv" id="cvv">CVV</label>
+<input type="text" id="cvvi" name="cvv" placeholder="477">
+</div>
+</div>
+</div>
+     </div>
+<input type="submit" value="Checkout" class="checkoutbutton">
+</form>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+
+var coll = document.getElementsByClassName("billcollapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<br><br><br>
+</body>
+
+</html>

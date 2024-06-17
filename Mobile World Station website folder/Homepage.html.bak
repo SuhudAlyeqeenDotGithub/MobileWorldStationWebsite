@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>MobileworldStationHome</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="home-service-gallery style.css">
+</head>
+<body>
+<div class="toptop">
+<div class="topcontainer">
+<img src="mobileworldstation.png" align="left" alt="logo" height="150" width="150"><br>
+<div class="welcome"><b>Welcome to Mobile World Station! We've got Variety of phones on offer waiting for you to buy at affordable prices</b></div>
+<br>
+</div>
+
+
+
+<div class="topnav">
+<div class="linkdiv">
+<a class="active" href="#homepage.html">Home</a>
+<a href="Gallery page.html">Gallery</a>
+<a href="#serviceparagraphdiv">Our Services</a>
+<a href="#footer">Contact Us</a>
+</div>
+<div class="searchcontainer">
+<div class="fa fa-search"></div>
+<input type="Stext" placeholder="Search..."/>
+</div>
+</div>
+</div>
+
+
+
+<br>
+<div class="videodiv">
+<video height="100%" width="100%" autoplay muted>
+<source src="product video.mp4" type="video/mp4">
+</video>
+</div>
+<br><br><br><br><hr style="width:75%; align:center; border-width:2px;color:gray;background-color:gray"><br><br>
+
+<table class="adtable">
+<tr>
+<td class="adtd">
+<div class="adcardcontainer">
+<div class="imgovcontainer">
+<img src="samsung a12.jpg" alt="samsung a12" class="ovimage">
+<div class="smsoverlay">
+<img src="new samsung a12 3d.png" class="ovimage">
+</div>
+</div>
+<h1 class="adproductname">Samsung Galaxy a12</h1>
+ <p class="adnow"><b>Now £164</b></p>
+  <a class="adbuybutton" href="samsung a12.html">Buy Now</a>
+ </div>
+</td>
+<td class="adtd">
+<div class="adcardcontainer">
+<div class="imgovcontainer">
+<img src="samsung s21.jpg" alt="samsung s21"  class="ovimage">
+<div class="smoverlay">
+<img src="new samsung s21 3d.png" class="ovimage">
+</div>
+</div>
+<h1 class="adproductname">Samsung Galaxy S21</h1>
+<p class="adnow"><b>Now £769.91</b></p>
+  <a class="adbuybutton" href="samsung s21.html">Buy Now</a>
+ </div>
+</td>
+<td class="adtd">
+<div class="adcardcontainer">
+<div class="imgovcontainer">
+<img src="iphone black.jpg" alt="iphone 11 black" class="ovimage">
+<div class="ipoverlay">
+<img src="new iphone black 3d.png" class="ovimage">
+</div>
+</div>
+<h1 class="adproductname">Apple iphone 11</h1>
+<p class="adnow"><b>Now £150.90</b></p>
+  <a class="adbuybutton" href="iphone 11 black.html">Buy Now</a>
+ </div>
+</td>
+</tr>
+</table>
+<p class="seemorep"><a class="seemore" href="gallery page.html">See More of our Product</a></p>
+<hr style="width:75%; align:center; border-width:2px;color:gray;background-color:gray"><br>
+
+
+<div class="sediv">
+<div class="secontainer">
+  <img src="good img.jpg" alt="good img" align="center" class="seimage">
+  <div class="overlay">
+<img src="customer.jpg" class="seimage">
+    <div id="service">Read About Our Services</div>
+  </div>
+</div>
+<div id="serviceparagraphdiv">
+<p class="serviceparagraph">MobileWorldStation is an organisation that provide modern-version mobile phones to people. <br>We offer them a great deal offer can gives customers oppurtunity to purchase mobile phones at affordable price. We also direct people with links to larger organisation that are also based on Mobile technology, where they can purchase products we do not have-at lower prices.</p>
+</div>
+</div>
+<br><br><br>
+<h1 class="visit">We recommend these websites for more about mobile phones.</h1>
+<div class="imagediv">
+<a class="imglink" href="https://www.samsung.com/uk/home/"target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="samsunglogo.png" alt="samsunglogo" height="100" width="150"></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="imglink" href="https://www.apple.com/" target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="iphonelogo.png" alt="iphonelogo" height="100" width="150"></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="imglink" href="https://wileyfox.com/"target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="wileyfoxlogo.jpg" alt="wileyfoxlogo" height="100" width="150"></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="imglink" href="https://umidigi.com/" target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="umidigilogo.jpg" alt="umidigilogo" height="100" width="150"></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class="imglink" href="https://www.motorola.co.uk/" target="_blank"><img style="border:1px solid lightgray; border-radius:5px;" src="motorolalogo.png" alt="motorolalogo" height="100" width="150"></a>
+</div>
+<br><br><br>
+</body>
+<footer id="footer">
+<h1 id="Foothead">Contact Us</h1>
+<table class="atable">
+<tr>
+<th>Address</th>
+<th>You can also contact us through:</th>
+</tr>
+<tr>
+<td>Address no.: 15 Blake Road Stanftord.<br>Postcode: IF 269 YK <br> Buses Around: 13, 165, 268, 9, 60.</td>
+<td>Email:&nbsp<a id="mailm" href="mailto:mobileworldstation@gmail.com">mobileworldstation@gmail.com</a><br>Call: 09888993749 or 08273846191<br><br>
+<a id="facebook" class="fa fa-facebook" href="https://www.facebook.com/mobileworldstation"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a id="instagram" class="fa fa-instagram" href="https://www.instagram.com/accounts/login/"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a id="twitter" class="fa fa-twitter" href="https://twitter.com/mobileworldstation"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a id="youtube" class="fa fa-youtube" href="https://www.youtube.com/c/MobileWorldStation"/>
+</td>
+</tr>
+</table>
+
+<hr>
+<button type="button" class="footcollapsible">Click here to contact Us</button>
+<div class="formcontent">
+<p class="Formhead"><b>Fill in the form to reach us for your enquiries or comment</b></p>
+<form action="form feedback.html">
+
+<table class="ftable">
+<tr>
+<th><label for="fname" id="fname">First name:</label></th>
+<th><label for="lname" id="lname">Last name:</label></th>
+<th><label for="email" id="email">Email:</label></th>
+</tr>
+<tr>
+<td><input type="text" id="fname" name="fname" placeholder="Patric"></td>
+<td><input type="text" id="lname" name="lname" placeholder="Sand"></td>
+<td><input type="text" id="email" name="email" placeholder="email@gmail.com"></td>
+</tr>
+<tr>
+<th><label for="explain" id="explain">What can we help you with?</label></th>
+</tr>
+<tr>
+<td class="tartd" colspan="2"><textarea id="explain" name="explain" placeholder="Write Something......"></textarea></td>
+</tr>
+<tr> 
+<th colspan="3"><input type="submit" value="Submit" class="fsubmit"</th>
+</tr>
+</table>
+</form>
+</div>
+
+<p class="developer">Developer: Suhud Ayodeji Yekini<br>Email:&nbsp<a id="mail" href="mailto:alyekeeniy@gmail.com">alyekeeniy@gmail.com</a><p>
+
+</footer>
+</div>
+<script>
+var coll = document.getElementsByClassName("footcollapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+</html> 

@@ -1,0 +1,475 @@
+
+.welcome{
+padding:20px 55px 20px 55px;
+font-family: calibri;
+font-size: 35px; 
+text-align: center;
+color: white;
+margin: 0px 0px 20px 200px;
+background-color: black;
+border: 1px solid black;
+border-radius: 3px;
+}
+.welcomeg{
+padding:50px 55px 20px 100px;
+font-family: calibri;
+font-size: 35px; 
+text-align: center;
+color: white;
+margin: 0px 0px 20px 200px;
+background-color: black;
+border: 1px solid black;
+border-radius: 3px;
+}
+.service{
+padding:10px 55px 10px 55px;
+font-family: calibri;
+font-size: 50px; 
+text-align: center;
+color: black;
+}
+
+
+.topnav{
+  position: sticky;
+  top: 0;
+z-index: 3;
+overflow: hidden;
+border:none;
+color: white;
+font-size: 25px;
+padding: 0px 40px 0px 0px;
+border-radius: 3px;
+margin-left: 60px;
+width: 90%;
+background-color: white;
+}
+
+.searchcontainer{
+display:flex;
+align-items: center;
+padding: 3px 0px 0px 100px;
+float: right;
+width: 30%;
+color: gray;
+}
+
+.topnav a{
+justify-content: space-between;
+display: inline;
+float: left;
+color: black;
+text-align: center;
+padding:10px 20px 10px 20px;
+text-decoration: none;
+font-family: calibri;
+font-size: 19px;
+font-weight: light;
+}
+.topnav a.active{
+border-style: dotted;
+border-radius: 20px;
+font-weight: bolder;
+border-color: black;
+}
+.topnav a:hover{
+color: white;
+background-color:#404040;
+border-radius: 20px;
+outline: none;
+border: none;
+}
+input[type=stext]{
+padding: 10px 10px 10px 10px;
+border-radius: 10px;
+border: 1px solid lightgray;
+outline: none;
+width: 100%;
+margin: 1px 5px 0px 5px;
+}
+::placeholder{
+font-size: 15px;
+}
+
+
+#footer{
+
+padding: 8px 10px 8px 10px;
+background-color: #262626;
+width:100%;
+}
+#foothead{
+font-family: calibri;
+text-align: center;
+Font-size: 40px;
+color: white;
+}
+.ftable,.atable{
+width: 100%;
+}
+.formhead{
+font-family: calibri;
+font-size: 20px;
+color: white;
+}
+caption{
+font-family: calibri;
+Font-size: 25px;
+color: white;
+}
+th{
+font-size: 20px;
+font-family: calibri;
+color: white;
+}
+input[type=text] {
+width:70%;
+padding: 12px 20px;
+border: 1px solid black;
+border-radius: 4px;
+color: black;
+}
+#fname,#lname,#email,#explain{
+color: black;
+}
+textarea{
+width:100%;
+height:100%;
+}
+.tartd{
+height:150px;
+}
+input[type=submit] {
+  background-color: #368267;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width:25%;
+  font-size: 15px;
+}
+input[type=submit]:hover {
+background-color: #203864;
+}
+td{
+font-size: 17px;
+font-family: calibri;
+color: white;
+text-align: center;
+}
+#facebook,#instagram,#twitter,#youtube{
+text-decoration: none;
+color: white;
+font-size: 25px;
+}
+.developer{
+font-family: calibri;
+color: white;
+text-align: center;
+}
+#mail,#mailm{
+color:white;
+text-decoration: none;
+}
+.footcollapsible{
+font-family: helvetica;
+font-size: 15px;
+margin: 0px 0px 10px 0px;
+padding: 5px 5px;
+border-radius: 3px;
+border: 1px solid black;
+background-color: #f2f2f2;
+cursor: pointer;
+}
+
+
+.footcollapsible:hover{
+background-color:#D9D9D9;
+color: black;
+}
+.formcontent{
+font-family: calibri;
+display: none;
+background-color: white;
+width: 80%;
+text-align: left;
+border: 1px solid white;
+border-radius: 5px;
+padding:0px 10px 5px 10px;
+color: black;
+}
+.ctable{
+width: 100%;
+}
+.ctable,.gtd{
+border-collapse: collapse;
+padding: 20px;
+}
+.cardcontainer{
+max-width:100%;
+max-height:100%;
+text-align: center;
+border: 1px solid lightgrey;
+border-radius: 5px;
+padding: 0px 0px;
+outline: 2px solid #cccccc;
+}
+.productname{
+font-size:30px;
+color: black;
+font-family: calibri;
+}
+.productinfo{
+font-size:15px;
+color: gray;
+font-family: calibri;
+text-align: center;
+}
+#was{
+color: red;
+font-family: calibri;
+font-size: 15px;
+text-decoration: line-through;
+}
+#now{
+color: black;
+font-family: calibri;
+font-size: 20px;
+}
+.buybutton{
+width:100%;
+background-color:#368267;
+padding: 15px 10px 15px 10px;
+outline: none;
+border: 1px solid #368267;
+border-radius: 3px;
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: helvetica;
+}
+.buybutton:hover{
+background-color: #44A280;
+color: white
+}
+
+
+#serviceparagraphdiv{
+padding: 10px 10px 10px 10px;
+width: 60%;
+margin: 0px 0px 0px 250px;
+}
+.serviceparagraph{
+font-family: calibri;
+font-size: 18px;
+}
+
+.visit{
+font-size: 40px;
+font-family: Brush Script MT;
+text-align: center;
+font-weight: lighter;
+}
+.imglink{
+text-decoration: none;
+}
+.imagediv{
+margin: 0px 0px 0px 50px;
+width: 90%;
+padding: 10px 10px;
+}
+.imgovcontainer {
+width: 100%;
+position: relative;  
+
+ 
+}
+
+.ovimage {
+  display: absolute;
+  width: 50%;
+  height: auto;
+  
+}
+
+.smoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+ 
+   
+}
+
+.imgovcontainer:hover .smoverlay {
+  opacity: 1;
+}
+
+
+.ipoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+   
+   
+}
+
+.imgovcontainer:hover .ipoverlay {
+  opacity: 1;
+}
+
+.smsoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  
+   
+}
+
+.imgovcontainer:hover .smsoverlay {
+  opacity: 1;
+}
+
+
+
+.sediv{
+background-color: none;
+width: 100%;
+padding: 40px 0px 40px 0px;
+border-radius: 5px;
+}
+.secontainer {
+  position: relative;
+  width: 70%;
+  margin: 20px 0px 20px 200px;
+}
+
+.seimage {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  
+   
+}
+
+.secontainer:hover .overlay {
+  opacity: 1;
+
+}
+
+#service {
+ background-color: black;
+  color: white;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 35px;
+font-family: Arial;
+font-weight: bold;
+width:90%;
+padding: 30px 30px;
+}
+
+.adtable,{
+width: 100%;
+background-color: none;
+}
+
+
+.adcardcontainer{
+border: none;
+
+
+}
+
+ .adproductname{
+font-size: 20px;
+color: black;
+font-family: arial;
+font-weight: bold;
+} 
+
+ .adnow{
+font-size: 15px;
+color: black;
+font-family: calibri;
+font-weight: lighter;
+}
+   .adbuybutton{
+background-color: none;
+outline: none;
+text-decoration: none;
+font-size: 20px;
+color: black;
+font-weight: bold;
+
+}
+   .adbuybutton:hover{
+outline: none;
+border: none;
+text-decoration: underline;
+color:darkblue;
+font-size: 25px;
+}
+.seemorep{
+text-align: center;
+margin-top:50px;
+}
+.seemore{
+font-family: calibri;
+text-decoration: underline;
+color: darkblue;
+font-weight: bold;
+
+
+}
+.seemore:hover{
+text-decoration: underline;
+font-size: 17px;
+}
+
+.videodiv{
+background-color: none;
+padding: 40px 20px 40px 20px;
+margin-top: 10px;
+width: 100%;
+}
+
+
+
+
+
